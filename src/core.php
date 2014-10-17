@@ -1,6 +1,6 @@
 <?php
 
 define('DS', DIRECTORY_SEPARATOR);
-define('ROOT', base_dir(__DIR__));
+define('ROOT', dirname(__DIR__));
 
-include ROOT.DS.'view.php'
+include ROOT.DS.'src'.DS.'view.php';
